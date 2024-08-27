@@ -9,6 +9,6 @@ This project uses GitHub Actions to automate the Continuous Integration (CI) and
 To run locally, execute the following:
 
 ```bash
-python -m pip install
-pip install pytest pytest-cov
+python -m pip install --upgrade pip
+pip install pytest
 pytest test_palindrome.py
