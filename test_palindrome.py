@@ -1,5 +1,5 @@
 import unittest
-from your_module import is_palindrome
+from palindrome import is_palindrome
 
 class TestPalindrome(unittest.TestCase):
     def test_basic_palindromes(self):
